@@ -1,0 +1,29 @@
+body{
+text-align: center;
+}
+
+.masthead{
+border: 10px solid navy;
+background-color: navy;
+color: oldlace;
+}
+
+.intro{
+border: 10px solid tomato;
+background-color: tomato;
+color: oldlace;
+font-size: 20px;
+}
+
+.test-area{
+font-size: 25px;
+}
+
+
+.test-wrapper{
+border: 10px solid;
+}
+
+.timer{
+    font-size: 40px;
+}
