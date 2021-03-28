@@ -6,7 +6,7 @@ const theTimer = document.querySelector(".timer");
 
 var timer = [0,0,0,0];
 var interval;
-var timmerRunning = false;
+var timerRunning = false;
 
 //add leading zero to numbers 9 or below (purley for aesthetics)//
 function leadingZero(time){
@@ -49,7 +49,7 @@ function spellCheck(){
 function start(){
     let textEnteredLength = testArea.value.length;
     if(textEnteredLength === 0 && !timerRunning){
-        timmerRunning = true;
+        timerRunning = true;
         interval = setInterval(runTimer, 10);
     }
     console.log(textEnteredLength);
